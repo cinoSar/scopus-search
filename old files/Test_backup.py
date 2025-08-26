@@ -1,12 +1,9 @@
 import pybliometrics
 import pandas as pd
-import itertools
 from pybliometrics.scopus import ScopusSearch
 from pybliometrics.scopus import exception
 from combinations import unique_combinations
 from datetime import datetime, timedelta
-import os
-
 
 pybliometrics.scopus.init()
 pd.reset_option('display.max_columns', None)
